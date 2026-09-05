@@ -1,10 +1,15 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Primeira Venda na Kiwify</title>
+
+<!-- ÍCONE DO SITE -->
+
+<link rel="icon" type="image/png" href="logo1.png">
 
 <style>
 :root{
@@ -41,7 +46,6 @@ body{
   overflow-x:hidden;
 }
 
-/* Fundo pontilhado */
 body:before{
   content:"";
   position:fixed;
@@ -53,27 +57,27 @@ body:before{
   background-size:32px 32px;
 }
 
-/* Container */
 .container{
   width:min(1120px,92%);
   margin:auto;
 }
 
-/* HEADER */
 header{
   padding:24px 0;
   position:relative;
   z-index:2;
 }
 
-.logo-img{
-  width:180px;
-  height:auto;
-  display:block;
-  object-fit:contain;
+.logo{
+  font-weight:900;
+  letter-spacing:-1px;
+  font-size:20px;
 }
 
-/* HERO */
+.logo span{
+  color:var(--accent2);
+}
+
 .hero{
   text-align:center;
   padding:72px 0 90px;
@@ -120,7 +124,6 @@ h1 span{
   font-size:18px;
 }
 
-/* BOTÕES */
 .cta{
   display:inline-flex;
   align-items:center;
@@ -176,7 +179,6 @@ h1 span{
   }
 }
 
-/* CONFIANÇA */
 .trust{
   display:flex;
   gap:20px;
@@ -187,7 +189,6 @@ h1 span{
   margin-top:18px;
 }
 
-/* SEÇÕES */
 .section{
   padding:78px 0;
 }
@@ -206,7 +207,6 @@ h1 span{
   margin:0 auto 40px;
 }
 
-/* CARDS */
 .grid{
   display:grid;
   grid-template-columns:repeat(3,1fr);
@@ -246,7 +246,6 @@ h1 span{
   font-size:14px;
 }
 
-/* PASSOS */
 .steps{
   display:grid;
   gap:16px;
@@ -281,7 +280,6 @@ h1 span{
   font-weight:900;
 }
 
-/* OFERTA */
 .offer{
   text-align:center;
   border:1px solid #7139c7;
@@ -309,7 +307,6 @@ h1 span{
   letter-spacing:0;
 }
 
-/* CONTADOR */
 .timer{
   display:flex;
   justify-content:center;
@@ -335,7 +332,6 @@ h1 span{
   color:#888;
 }
 
-/* FAQ */
 .faq{
   max-width:800px;
   margin:auto;
@@ -356,7 +352,6 @@ h1 span{
   padding-top:12px;
 }
 
-/* FOOTER */
 footer{
   text-align:center;
   padding:45px 0;
@@ -364,7 +359,6 @@ footer{
   font-size:12px;
 }
 
-/* ANIMAÇÕES */
 .reveal{
   opacity:0;
   transform:translateY(25px);
@@ -378,7 +372,6 @@ footer{
   transform:none;
 }
 
-/* RESPONSIVO */
 @media(max-width:800px){
 
   .grid{
@@ -397,401 +390,328 @@ footer{
     padding:55px 0;
   }
 
-  .logo-img{
-    width:150px;
-  }
-
-  .cta{
-    padding:16px 22px;
-    font-size:14px;
-  }
-
-  .timer{
-    gap:7px;
-  }
-
-  .timebox{
-    min-width:62px;
-    padding:9px 10px;
-  }
-
 }
 </style>
+
 </head>
 
 <body>
 
-<!-- HEADER -->
 <header>
   <div class="container">
-
-    <!-- LOGO -->
-    <img
-      src="logo1.png"
-      alt="Primeira Venda"
-      class="logo-img"
-    >
-
+    <div class="logo">
+      PRIMEIRA<span>VENDA</span>
+    </div>
   </div>
 </header>
 
-
 <main>
 
-<!-- HERO -->
 <section class="hero">
 
   <div class="container">
 
-    <div class="badge">
-      🔥 MÉTODO PRÁTICO PARA INICIANTES
-    </div>
+```
+<div class="badge">
+  🔥 MÉTODO PRÁTICO PARA INICIANTES
+</div>
 
-    <h1>
-      Faça sua
-      <span>primeira venda</span>
-      na Kiwify
-    </h1>
+<h1>
+  Faça sua <span>primeira venda</span> na Kiwify
+</h1>
+
+<p>
+  Um passo a passo direto para quem quer começar no digital,
+  estruturar sua oferta e buscar a primeira venda sem complicação.
+</p>
+
+<a
+  class="cta"
+  href="https://pay.kiwify.com.br/osXMsAU"
+  target="_blank"
+  rel="noopener"
+>
+  QUERO FAZER MINHA PRIMEIRA VENDA →
+</a>
+
+<div class="trust">
+  <span>✓ Acesso online</span>
+  <span>✓ Conteúdo direto ao ponto</span>
+  <span>✓ Para iniciantes</span>
+</div>
+```
+
+  </div>
+
+</section>
+
+<section class="section reveal">
+
+  <div class="container">
+
+```
+<h2 class="section-title">
+  O que você vai aprender
+</h2>
+
+<p class="section-sub">
+  Um caminho simples para sair do zero e entender os principais
+  passos de uma primeira venda.
+</p>
+
+<div class="grid">
+
+  <div class="card">
+    <div class="icon">🎯</div>
+
+    <h3>
+      Encontrar uma oferta
+    </h3>
 
     <p>
-      Um passo a passo direto para quem quer começar no digital,
-      estruturar sua oferta e buscar a primeira venda sem complicação.
+      Entenda como escolher um produto e uma proposta
+      que façam sentido para o público.
     </p>
+  </div>
 
-    <a
-      class="cta"
-      href="https://pay.kiwify.com.br/osXMsAU"
-      target="_blank"
-      rel="noopener"
-    >
-      QUERO FAZER MINHA PRIMEIRA VENDA →
-    </a>
 
-    <div class="trust">
-      <span>✓ Acesso online</span>
-      <span>✓ Conteúdo direto ao ponto</span>
-      <span>✓ Para iniciantes</span>
-    </div>
+  <div class="card">
+    <div class="icon">📲</div>
+
+    <h3>
+      Divulgar do jeito certo
+    </h3>
+
+    <p>
+      Aprenda fundamentos para criar conteúdo e
+      apresentar sua oferta de forma clara.
+    </p>
+  </div>
+
+
+  <div class="card">
+    <div class="icon">💰</div>
+
+    <h3>
+      Buscar a primeira venda
+    </h3>
+
+    <p>
+      Organize suas ações em um processo simples para
+      colocar sua estratégia em prática.
+    </p>
+  </div>
+
+</div>
+```
 
   </div>
 
 </section>
 
-
-<!-- O QUE VAI APRENDER -->
 <section class="section reveal">
 
   <div class="container">
 
-    <h2 class="section-title">
-      O que você vai aprender
-    </h2>
+```
+<h2 class="section-title">
+  Seu caminho começa aqui
+</h2>
 
-    <p class="section-sub">
-      Um caminho simples para sair do zero e entender os principais
-      passos de uma primeira venda.
-    </p>
+<p class="section-sub">
+  Siga uma sequência simples e transforme informação em ação.
+</p>
 
-    <div class="grid">
+<div class="steps">
 
-      <div class="card">
+  <div class="step">
 
-        <div class="icon">🎯</div>
-
-        <h3>
-          Encontrar uma oferta
-        </h3>
-
-        <p>
-          Entenda como escolher um produto e uma proposta
-          que façam sentido para o público.
-        </p>
-
-      </div>
-
-
-      <div class="card">
-
-        <div class="icon">📲</div>
-
-        <h3>
-          Divulgar do jeito certo
-        </h3>
-
-        <p>
-          Aprenda fundamentos para criar conteúdo e
-          apresentar sua oferta de forma clara.
-        </p>
-
-      </div>
-
-
-      <div class="card">
-
-        <div class="icon">💰</div>
-
-        <h3>
-          Buscar a primeira venda
-        </h3>
-
-        <p>
-          Organize suas ações em um processo simples para
-          colocar sua estratégia em prática.
-        </p>
-
-      </div>
-
+    <div class="num">
+      01
     </div>
 
-  </div>
+    <div>
+      <h3>
+        Prepare sua oferta
+      </h3>
 
-</section>
-
-
-<!-- CAMINHO -->
-<section class="section reveal">
-
-  <div class="container">
-
-    <h2 class="section-title">
-      Seu caminho começa aqui
-    </h2>
-
-    <p class="section-sub">
-      Siga uma sequência simples e transforme informação em ação.
-    </p>
-
-
-    <div class="steps">
-
-      <div class="step">
-
-        <div class="num">
-          01
-        </div>
-
-        <div>
-
-          <h3>
-            Prepare sua oferta
-          </h3>
-
-          <p>
-            Defina o que você vende, para quem e qual problema
-            sua oferta ajuda a resolver.
-          </p>
-
-        </div>
-
-      </div>
-
-
-      <div class="step">
-
-        <div class="num">
-          02
-        </div>
-
-        <div>
-
-          <h3>
-            Crie sua divulgação
-          </h3>
-
-          <p>
-            Aprenda a comunicar sua oferta de maneira
-            objetiva e atrativa.
-          </p>
-
-        </div>
-
-      </div>
-
-
-      <div class="step">
-
-        <div class="num">
-          03
-        </div>
-
-        <div>
-
-          <h3>
-            Coloque em prática
-          </h3>
-
-          <p>
-            Execute o processo, acompanhe os resultados
-            e melhore o que for necessário.
-          </p>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- OFERTA -->
-<section class="section reveal">
-
-  <div class="container">
-
-    <div class="offer">
-
-      <div class="badge">
-        ⚡ ACESSO IMEDIATO
-      </div>
-
-      <h2 class="section-title">
-        Comece hoje
-      </h2>
-
-      <p class="section-sub">
-        Tenha acesso ao conteúdo e comece a colocar
-        seu plano em prática.
+      <p>
+        Defina o que você vende, para quem e qual problema
+        sua oferta ajuda a resolver.
       </p>
-
-      <div class="price">
-        R$ 19,90
-        <small>à vista</small>
-      </div>
-
-
-      <!-- CONTADOR -->
-      <div
-        class="timer"
-        aria-label="contador de oferta"
-      >
-
-        <div class="timebox">
-
-          <strong id="h">
-            00
-          </strong>
-
-          <span>
-            HORAS
-          </span>
-
-        </div>
-
-
-        <div class="timebox">
-
-          <strong id="m">
-            14
-          </strong>
-
-          <span>
-            MIN
-          </span>
-
-        </div>
-
-
-        <div class="timebox">
-
-          <strong id="s">
-            59
-          </strong>
-
-          <span>
-            SEG
-          </span>
-
-        </div>
-
-      </div>
-
-
-      <a
-        class="cta"
-        href="https://pay.kiwify.com.br/osXMsAU"
-        target="_blank"
-        rel="noopener"
-      >
-        QUERO COMEÇAR AGORA 🚀
-      </a>
-
     </div>
+
+  </div>
+
+
+  <div class="step">
+
+    <div class="num">
+      02
+    </div>
+
+    <div>
+      <h3>
+        Crie sua divulgação
+      </h3>
+
+      <p>
+        Aprenda a comunicar sua oferta de maneira objetiva
+        e atrativa.
+      </p>
+    </div>
+
+  </div>
+
+
+  <div class="step">
+
+    <div class="num">
+      03
+    </div>
+
+    <div>
+      <h3>
+        Coloque em prática
+      </h3>
+
+      <p>
+        Execute o processo, acompanhe os resultados
+        e melhore o que for necessário.
+      </p>
+    </div>
+
+  </div>
+
+</div>
+```
 
   </div>
 
 </section>
 
-
-<!-- FAQ -->
 <section class="section reveal">
 
   <div class="container">
 
-    <h2 class="section-title">
-      Perguntas frequentes
-    </h2>
+```
+<div class="offer">
 
+  <div class="badge">
+    ⚡ ACESSO IMEDIATO
+  </div>
 
-    <div class="faq">
+  <h2 class="section-title">
+    Comece hoje
+  </h2>
 
-      <details>
+  <p class="section-sub">
+    Tenha acesso ao conteúdo e comece a colocar
+    seu plano em prática.
+  </p>
 
-        <summary>
-          Para quem é o conteúdo?
-        </summary>
+  <div class="price">
+    R$ 19,90
+    <small>à vista</small>
+  </div>
 
-        <p>
-          Para pessoas que estão começando no digital e querem
-          entender um processo básico para buscar a primeira venda.
-        </p>
+  <div
+    class="timer"
+    aria-label="contador de oferta"
+  >
 
-      </details>
-
-
-      <details>
-
-        <summary>
-          Preciso ter experiência?
-        </summary>
-
-        <p>
-          Não. O material foi pensado para iniciantes.
-        </p>
-
-      </details>
-
-
-      <details>
-
-        <summary>
-          Como recebo o acesso?
-        </summary>
-
-        <p>
-          Após a confirmação da compra, o acesso é disponibilizado
-          pela plataforma Kiwify.
-        </p>
-
-      </details>
-
-
-      <details>
-
-        <summary>
-          Posso começar pelo celular?
-        </summary>
-
-        <p>
-          Sim. O conteúdo pode ser acompanhado pelo celular
-          ou computador.
-        </p>
-
-      </details>
-
+    <div class="timebox">
+      <strong id="h">00</strong>
+      <span>HORAS</span>
     </div>
+
+    <div class="timebox">
+      <strong id="m">14</strong>
+      <span>MIN</span>
+    </div>
+
+    <div class="timebox">
+      <strong id="s">59</strong>
+      <span>SEG</span>
+    </div>
+
+  </div>
+
+  <a
+    class="cta"
+    href="https://pay.kiwify.com.br/osXMsAU"
+    target="_blank"
+    rel="noopener"
+  >
+    QUERO COMEÇAR AGORA 🚀
+  </a>
+
+</div>
+```
+
+  </div>
+
+</section>
+
+<section class="section reveal">
+
+  <div class="container">
+
+```
+<h2 class="section-title">
+  Perguntas frequentes
+</h2>
+
+<div class="faq">
+
+  <details>
+    <summary>
+      Para quem é o conteúdo?
+    </summary>
+
+    <p>
+      Para pessoas que estão começando no digital e querem
+      entender um processo básico para buscar a primeira venda.
+    </p>
+  </details>
+
+
+  <details>
+    <summary>
+      Preciso ter experiência?
+    </summary>
+
+    <p>
+      Não. O material foi pensado para iniciantes.
+    </p>
+  </details>
+
+
+  <details>
+    <summary>
+      Como recebo o acesso?
+    </summary>
+
+    <p>
+      Após a confirmação da compra, o acesso é disponibilizado
+      pela plataforma Kiwify.
+    </p>
+  </details>
+
+
+  <details>
+    <summary>
+      Posso começar pelo celular?
+    </summary>
+
+    <p>
+      Sim. O conteúdo pode ser acompanhado pelo celular
+      ou computador.
+    </p>
+  </details>
+
+</div>
+```
 
   </div>
 
@@ -799,18 +719,13 @@ footer{
 
 </main>
 
-
-<!-- FOOTER -->
 <footer>
   © 2026 Primeira Venda • Conteúdo digital
 </footer>
 
-
 <script>
 
-/* =========================
-   CONTADOR
-========================= */
+/* CONTADOR */
 
 const els = {
   h: document.getElementById("h"),
@@ -819,7 +734,6 @@ const els = {
 };
 
 let end = Date.now() + 15 * 60 * 1000;
-
 
 function tick(){
 
@@ -842,7 +756,6 @@ function tick(){
 
   let s = total % 60;
 
-
   els.h.textContent =
     String(h).padStart(2,"0");
 
@@ -852,17 +765,12 @@ function tick(){
   els.s.textContent =
     String(s).padStart(2,"0");
 
-
   if(left <= 0){
-
     end =
       Date.now() +
       15 * 60 * 1000;
-
   }
-
 }
-
 
 tick();
 
@@ -872,9 +780,7 @@ setInterval(
 );
 
 
-/* =========================
-   ANIMAÇÃO AO ROLAR
-========================= */
+/* ANIMAÇÃO AO ROLAR */
 
 const obs =
   new IntersectionObserver(
